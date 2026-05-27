@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetShop - Каталог</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 PetShop</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="catalog.html">Животни</a></li>
+            <li><a href="cart.html">Количка (<span id="cart-count">0</span>)</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="catalog">
+
+<h2>🐾 Каталог животни</h2>
+
+<div class="products">
+
+    <!-- 1 -->
+    <div class="product">
+        <img src="images/dog1.jpg" alt="Голдън ретривър">
+        <h3>Голдън ретривър</h3>
+        <p>350 лв</p>
+        <a href="golden.html">Виж повече</a>
+        <button onclick="addToCart('Голдън ретривър',350)">Добави</button>
+    </div>
+
+    <!-- 2 -->
+    <div class="product">
+        <img src="images/dog2.jpg" alt="Немска овчарка">
+        <h3>Немска овчарка</h3>
+        <p>500 лв</p>
+        <a href="shepherd.html">Виж повече</a>
+        <button onclick="addToCart('Немска овчарка',500)">Добави</button>
+    </div>
+
+    <!-- 3 -->
+    <div class="product">
+        <img src="images/husky.jpg" alt="Хъски">
+        <h3>Хъски</h3>
+        <p>500 лв</p>
+        <a href="husky.html">Виж повече</a>
+        <button onclick="addToCart('Хъски',500)">Добави</button>
+    </div>
+
+    <!-- 4 -->
+    <div class="product">
+        <img src="images/cat4.jpg" alt="Британска котка">
+        <h3>Британска котка</h3>
+        <p>250 лв</p>
+        <a href="british.html">Виж повече</a>
+        <button onclick="addToCart('Британска котка',250)">Добави</button>
+    </div>
+
+    <!-- 5 -->
+    <div class="product">
+        <img src="images/siamese.jpg" alt="Сиамска котка">
+        <h3>Сиамска котка</h3>
+        <p>300 лв</p>
+        <a href="siamese-cat.html">Виж повече</a>
+        <button onclick="addToCart('Сиамска котка',300)">Добави</button>
+    </div>
+
+    <!-- 6 -->
+    <div class="product">
+        <img src="images/parrot.jpg" alt="Папагал Ара">
+        <h3>Папагал Ара</h3>
+        <p>600 лв</p>
+        <a href="macaw.html">Виж повече</a>
+        <button onclick="addToCart('Папагал Ара',600)">Добави</button>
+    </div>
+
+    <!-- 7 -->
+    <div class="product">
+        <img src="images/canary.jpg" alt="Канарче">
+        <h3>Канарче</h3>
+        <p>15 лв</p>
+        <a href="canary.html">Виж повече</a>
+        <button onclick="addToCart('Канарче',15)">Добави</button>
+    </div>
+
+    <!-- 8 -->
+    <div class="product">
+        <img src="images/rabbit.jpg" alt="Заек">
+        <h3>Заек</h3>
+        <p>30 лв</p>
+        <a href="rabbit.html">Виж повече</a>
+        <button onclick="addToCart('Заек',30)">Добави</button>
+    </div>
+
+    <!-- 9 -->
+    <div class="product">
+        <img src="images/hamster.jpg" alt="Хамстер">
+        <h3>Хамстер</h3>
+        <p>20 лв</p>
+        <a href="hamster.html">Виж повече</a>
+        <button onclick="addToCart('Хамстер',20)">Добави</button>
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 PetShop</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

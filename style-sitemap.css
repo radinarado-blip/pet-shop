@@ -1,0 +1,51 @@
+/* Основни стилове */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Контейнер */
+.box {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Заглавие */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Списъци */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Елементи */
+li {
+    margin: 6px 0;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Малка линия пред всеки елемент */
+li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+}
+
+/* Основни секции */
+.main {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}

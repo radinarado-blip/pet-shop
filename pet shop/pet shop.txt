@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<title>PetShop – Продажба на домашни любимци</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>PetShop</h1>
+<p>Сайт за продажба на домашни любимци</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Начало</a></li>
+<li><a href="animals.html">Животни</a></li>
+<li><a href="add.html">Добави обява</a></li>
+<li><a href="contact.html">Контакти</a></li>
+</ul>
+</nav>
+
+<section>
+
+<h2>Налични домашни любимци</h2>
+
+<!-- КУЧЕТА -->
+
+<h2>Кучета</h2>
+
+<div class="animal">
+<h3>Голдън ретривър</h3>
+<img src="dog1.jpg" width="250">
+<p>Възраст: 2 месеца</p>
+<p>Цена: 600 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Немска овчарка</h3>
+<img src="dog2.jpg" width="250">
+<p>Възраст: 4 месеца</p>
+<p>Цена: 750 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Хъски</h3>
+<img src="dog3.jpg" width="250">
+<p>Възраст: 3 месеца</p>
+<p>Цена: 800 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Пудел</h3>
+<img src="dog4.jpg" width="250">
+<p>Възраст: 5 месеца</p>
+<p>Цена: 650 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Лабрадор</h3>
+<img src="dog5.jpg" width="250">
+<p>Възраст: 3 месеца</p>
+<p>Цена: 700 лв</p>
+<button>Виж повече</button>
+</div>
+
+<!-- КОТКИ -->
+
+<h2>Котки</h2>
+
+<div class="animal">
+<h3>Британска късокосместа</h3>
+<img src="cat1.jpg" width="250">
+<p>Възраст: 3 месеца</p>
+<p>Цена: 450 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Сиамска котка</h3>
+<img src="cat2.jpg" width="250">
+<p>Възраст: 4 месеца</p>
+<p>Цена: 500 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Персийска котка</h3>
+<img src="cat3.jpg" width="250">
+<p>Възраст: 5 месеца</p>
+<p>Цена: 550 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Мейн Куун</h3>
+<img src="cat4.jpg" width="250">
+<p>Възраст: 4 месеца</p>
+<p>Цена: 700 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Рагдол</h3>
+<img src="cat5.jpg" width="250">
+<p>Възраст: 3 месеца</p>
+<p>Цена: 650 лв</p>
+<button>Виж повече</button>
+</div>
+
+<!-- ПТИЦИ -->
+
+<h2>Птици</h2>
+
+<div class="animal">
+<h3>Папагал Ара</h3>
+<img src="bird1.jpg" width="250">
+<p>Възраст: 1 година</p>
+<p>Цена: 1200 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Канарче</h3>
+<img src="bird2.jpg" width="250">
+<p>Възраст: 6 месеца</p>
+<p>Цена: 80 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Вълнист папагал</h3>
+<img src="bird3.jpg" width="250">
+<p>Възраст: 4 месеца</p>
+<p>Цена: 50 лв</p>
+<button>Виж повече</button>
+</div>
+
+<!-- РИБИ -->
+
+<h2>Риби</h2>
+
+<div class="animal">
+<h3>Златна рибка</h3>
+<img src="fish1.jpg" width="250">
+<p>Цена: 10 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Бета</h3>
+<img src="fish2.jpg" width="250">
+<p>Цена: 15 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Гупи</h3>
+<img src="fish3.jpg" width="250">
+<p>Цена: 8 лв</p>
+<button>Виж повече</button>
+</div>
+
+<!-- ГРИЗАЧИ -->
+
+<h2>Гризачи</h2>
+
+<div class="animal">
+<h3>Хамстер</h3>
+<img src="hamster.jpg" width="250">
+<p>Цена: 25 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Морско свинче</h3>
+<img src="guinea.jpg" width="250">
+<p>Цена: 40 лв</p>
+<button>Виж повече</button>
+</div>
+
+<div class="animal">
+<h3>Заек</h3>
+<img src="rabbit.jpg" width="250">
+<p>Цена: 60 лв</p>
+<button>Виж повече</button>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 PetShop – Всички права запазени</p>
+</footer>
+
+</body>
+</html>

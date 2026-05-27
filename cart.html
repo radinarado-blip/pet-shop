@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Количка - PetShop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 PetShop</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="catalog.html">Животни</a></li>
+            <li><a href="cart.html">Количка</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>🛒 Твоята количка</h2>
+
+    <ul id="cart-items"></ul>
+
+    <h3 id="total">Общо: 0 лв</h3>
+
+    <button onclick="clearCart()">🗑 Изчисти количката</button>
+</section>
+
+<footer>
+    <p>© 2026 PetShop</p>
+</footer>
+
+<script>
+function loadCart() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let list = document.getElementById("cart-items");
+    let total = 0;
+
+    list.innerHTML = "";
+
+    cart.forEach(item => {
+        let li = document.createElement("li");
+
+        let qty = item.qty || 1;
+        let itemTotal = item.price * qty;
+
+        li.textContent = `${item.name} x${qty} - ${itemTotal} лв`;
+
+        list.appendChild(li);
+
+        total += itemTotal;
+    });
+
+    document.getElementById("total").textContent =
+        "Общо: " + total + " лв";
+}
+
+function clearCart() {
+    localStorage.removeItem("cart");
+    loadCart();
+}
+
+loadCart();
+</script>
+
+</body>
+</html>
